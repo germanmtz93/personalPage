@@ -15,10 +15,10 @@ const mainBody = {
       image: "fa-github",
       url: "https://github.com/germanmtz93",
     },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/germanmartinez93",
-    },
+    // {
+    //   image: "fa-facebook",
+    //   url: "https://www.facebook.com/germanmartinez93",
+    // },
     {
       image: "fa-instagram",
       url: "https://www.instagram.com/germanmtz93/",
@@ -27,10 +27,10 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/germanmtz93/",
     },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/german_martinez/",
-    },
+    // {
+    //   image: "fa-twitter",
+    //   url: "https://www.twitter.com/german_martinez/",
+    // },
   ],
 };
 
@@ -46,7 +46,7 @@ const mainBody = {
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
 //     i.e resume: require("../editable-stuff/resume.pdf"),
-//         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+//         resume: "https://docs.google.com/document/d/13_PWxb-UFiJj4YAFOj8e_bxxv3Vx9UHQdyBQ/edit?usp=sharing",
 
 const about = {
   show: true,
@@ -55,7 +55,7 @@ const about = {
   imageSize: 375,
   message:
     "German Martinez has over 5 years of software development expirience. Currently working as a Technology Consultant at Credera, where he continuously improves client products and services by leveraging key technologies. Focusing primarily on Full-stack Web Development and DevOps/Cloud projects in various industry sectors in order to enhance processes and drive client success.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  resume: require("../editable-stuff/resume.pdf")
 };
 
 // PROJECTS SECTION
@@ -103,21 +103,21 @@ const skills = {
     { name: "Python", value: 90 },
     { name: "JavaScript", value: 75 },
     { name: "Ruby", value: 85 },
-    { name: "C/C++", value: 65 },
+    { name: "C", value: 65 },
     { name: "Terraform", value: 90 },
     { name: "React", value: 65 },
     { name: "HTML/CSS/SCSS", value: 55 },
-    { name: "AWS", value: 80 },
+    { name: "LaTex", value: 80 },
   ],
-  softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+  appSkills: [
+    { name: "AWS", value: 80 },
+    { name: "Azure", value: 90 },
+    { name: "Kubernetes", value: 75 },
+    { name: "Docker", value: 85 },
+    { name: "Chef", value: 75 },
+    { name: "Version Control", value: 90 },
+    { name: "Jenkins", value: 70 },
+    { name: "Vagrant", value: 90 },
   ],
 };
 

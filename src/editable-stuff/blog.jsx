@@ -36,7 +36,7 @@ const blog1 = new BlogBuilder({
     "2nd Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur ad, temporibus quae obcaecati eum expedita pariatur aspernatur recusandae beatae iste soluta sunt blanditiis dolore ipsam quia laboriosam quas perspiciatis architecto?"
   );
 
-bloglist.push(blog1);
-bloglist.push(blog);
+// bloglist.push(blog1);
+// bloglist.push(blog);
 
 export default bloglist;
